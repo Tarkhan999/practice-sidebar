@@ -1,4 +1,4 @@
-.box{
+/* .box{
     margin: 30px;
 }
 
@@ -11,4 +11,45 @@
 
 input{
     width: 700px !important;
+} */
+
+
+/* 
+
+.sidebar{
+    width: 350px;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    transition: all 0.5s;
+  
 }
+.move-sidebar{
+  transform: translateX(-297px);
+}
+.sidebar ul{
+list-style: none;
+line-height: 80px;
+}
+.sidebar ul li{
+    font-size: 36px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.sidebar ul li a:hover{
+  color: magenta;
+}
+.sidebar .icons i{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+} */

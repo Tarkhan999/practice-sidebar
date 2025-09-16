@@ -58,12 +58,41 @@
 // console.log("tested");
 // })
 
-let input=document.querySelector("input");
-input.addEventListener("keydown",function(){
-    let inputValue=input.value
-   console.log(inputValue); 
-})
 
 
 
-//console.log();
+
+// let input=document.querySelector("input");
+// let validationMsj=document.querySelector("span");
+// input.addEventListener("keyup",function(){
+//     let inputValue=input.value;
+//     if(inputValue==""){
+//         validationMsj.classList.remove("d-none");
+//     }
+//     else{
+//         validationMsj.classList.add("d-none");
+//     }
+// })
+
+
+
+
+//sidebar
+
+
+// let closeIcon=document.querySelector(".sidebar .icons .close");
+
+// let openIcon=document.querySelector(".sidebar .icons .open");
+// let sidebar=document.querySelector(".sidebar");
+
+// openIcon.addEventListener("click",function(){
+//   sidebar.classList.remove("move-sidebar");
+//   this.classList.add("d-none");
+//   this.previousElementSibling.classList.remove("d-none");
+// })
+
+// closeIcon.addEventListener("click",function(){
+//   sidebar.classList.add("move-sidebar");
+//   this.classList.add("d-none");
+//   this.nextElementSibling.classList.remove("d-none");
+// })
